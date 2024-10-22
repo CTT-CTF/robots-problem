@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('Images/architecture-bg.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: black;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 20px;
+}
+
+.about, .projects {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.about img, .projects img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Contact Page Styles */
+.contact {
+    padding: 10px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.form-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 40%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 20px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .about, .projects, .contact-info, .locations {
+        flex-direction: column;
+    }
+
+    .contact-details, .location {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.image {
+    display: block;
+    width: 50%;
+    height: 50%;
+}

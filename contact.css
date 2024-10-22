@@ -1,0 +1,26 @@
+/* Style the entire contact section for better aesthetics */
+.section.contact {
+    max-width: 600px;                /* Set a max-width for the contact section */
+    margin: 0 auto;                  /* Center the section in the page */
+    padding: 20px;                   /* Add padding for spacing */
+    border: 1px solid #ddd;          /* Optional: Add a border for styling */
+    border-radius: 8px;              /* Round the corners for a softer look */
+    background-color: rgba(255, 255, 255, 0.9); /* Use a semi-transparent white for the background */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Center the form text */
+.form-text {
+    text-align: center;               /* Center the text */
+    margin: 20px 0;                  /* Add some vertical spacing */
+    font-weight: bold;                /* Make it bold for emphasis */
+    font-size: 24px;                 /* Increase the font size for visibility */
+    color: #333;                     /* Optional: Change color for better visibility */
+}
+
+/* Style form elements */
+form {
+    display: flex;                    /* Use flexbox for layout */
+    flex-direction: column;           /* Stack elements vertically */
+    gap: 10px;                       /* Space between form elements */
+}
